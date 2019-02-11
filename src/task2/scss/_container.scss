@@ -1,0 +1,55 @@
+.container {
+  margin: 40px auto;
+  padding: 0 30px 20px;
+  width: 800px;
+  border: 5px solid #888888;
+  border-radius: 25px;
+  background-color: #ffffff;
+
+  &--gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__headline {
+    padding: 30px 0;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    color: #444444;
+  }
+
+  &__card {
+    flex-basis: 220px;
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: #99ccff;
+    border: 2px solid #0033cc;
+    border-radius: 10px;
+
+    &--female {
+      background-color: #ff99ff;
+      border: 2px solid #ff0099;
+    }
+  }
+
+  &__card-heading {
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+  }
+
+  &__card-text {
+    padding-top: 7px;
+  }
+
+  &__stats {
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: 500;
+    color: #444444;
+  }
+}

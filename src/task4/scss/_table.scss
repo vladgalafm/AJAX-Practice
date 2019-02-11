@@ -1,0 +1,22 @@
+.table {
+  border-collapse: collapse;
+
+  &__head {
+    padding: 15px 30px;
+    color: $head-color;
+    background-color: $background-head;
+    border-left: 1px solid $head-color;
+    border-right: 1px solid $head-color;
+  }
+
+  &__cell {
+    padding: 15px 30px;
+    color: $row-color;
+    background-color: $background-color;
+    border-bottom: 1px solid $row-border;
+
+    &--center {
+      text-align: center;
+    }
+  }
+}
