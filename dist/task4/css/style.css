@@ -64,12 +64,12 @@ body {
   cursor: pointer;
 }
 
-.show-more__button--active:hover {
+.show-more__button:hover {
   color: #1c1c1e;
   background-color: #dfdcca;
 }
 
-.show-more__button--disabled {
+.show-more__button:disabled {
   color: #333335;
   background-color: #1c1c1e;
   border: 2px solid #333335;

@@ -60,8 +60,6 @@
 
     if (!loadAllow) {
       showMore.disabled = true;
-      showMore.classList.add('show-more__button--disabled');
-      showMore.classList.remove('show-more__button--active');
     }
   };
 }());
